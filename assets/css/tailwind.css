@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.router-link-active{
+    @apply text-slate-700 underline dark:text-slate-50 font-bold
+}
+
+body{
+    @apply bg-no-repeat bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-900 dark:to-slate-600 p-2 h-screen dark:text-slate-200
+}
